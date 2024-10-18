@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         List<VideoItem> videoItemList = new ArrayList<>();
         VideoItem videoOne = new VideoItem();
-        videoOne.videoURL = "gs://fir-dcef4.appspot.com/Small Video.MOV";
+        videoOne.videoURL = "https://firebasestorage.googleapis.com/v0/b/fir-dcef4.appspot.com/o/videotwo.mp4?alt=media&token=416c7259-c216-45d1-9cc0-15bf1785d50d";
         videoOne.videoTitle = "Video One";
         videoOne.videoDescription = "This is the first video.";
         videoOne.videoID = "ID: 234567";
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         videoViewPager.setAdapter(new VideoAdapter(videoItemList));
 
         VideoItem videoTwo = new VideoItem();
-        videoTwo.videoURL = "";
+        videoTwo.videoURL = "https://firebasestorage.googleapis.com/v0/b/fir-dcef4.appspot.com/o/videothree.mp4?alt=media&token=70b3ecaf-686e-4de4-abb2-5db1e6cee575";
         videoTwo.videoTitle = "Video Two";
         videoTwo.videoDescription = "This is the second video.";
         videoTwo.videoID = "ID: 345678";
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         videoViewPager.setAdapter(new VideoAdapter(videoItemList));
 
         VideoItem videoThree = new VideoItem();
-        videoThree.videoURL = "";
+        videoThree.videoURL = "https://firebasestorage.googleapis.com/v0/b/fir-dcef4.appspot.com/o/videoone.mp4?alt=media&token=67eab899-589a-4fb4-b313-26152bc56ff9";
         videoThree.videoTitle = "Video three";
         videoThree.videoDescription = "This is the third video";
         videoThree.videoID = "ID: 456789";
